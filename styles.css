@@ -31,29 +31,29 @@ body, html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-}
-
-@media screen and (min-width: 360px){
-    .navbar{padding-top: 44px;}
-}
-@media screen and (max-width: 600px) {
-    .navbar{padding-top: 122px;}
+    align-items: center;
+    padding-top: 33px;
 }
 
 .nav-link{
-    padding: 24px;
+    padding: 0.7vw;
     text-decoration: none;
-    color: rgb(137, 0, 144);
-    font-size: 6vh;
-    font-family: Alex Brush, cursive;
+    font-size: 3vw;
+    font-family: Indie Flower, cursive;
+    background: -webkit-linear-gradient(rgb(255, 222, 255), rgb(111, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 600px) {
-    .nav-link{padding: 108px}
+    .navbar{
+        height: 50vh;
+        flex-direction: column;
+    }
+    .nav-link{
+        font-size: 5.5vw;
+    }
 }
-
-
 
 #Profile-Pic{
     border-radius: 50%;
