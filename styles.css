@@ -39,7 +39,7 @@ body, html{
 .nav-link{
     padding: 0.7vw;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 3.3vw;
     font-family: Indie Flower, cursive;
     background: -webkit-linear-gradient(rgb(255, 222, 255), rgb(111, 255, 255));
     -webkit-background-clip: text;
@@ -52,7 +52,7 @@ body, html{
         flex-direction: column;
     }
     .nav-link{
-        font-size: 5.5vw;
+        font-size: 7vw;
     }
 }
 
